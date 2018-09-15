@@ -20,7 +20,7 @@ checkOnly="true"/>
 <property name="sf.deployRoot" value="./src"/> 
 <sf:deploy username="${sf.username}" password="${sf.password}" 
 serverurl="${sf.serverUrl}" deployRoot="${sf.deployRoot}" pollWaitMillis="10000" 
-trace="${sf.trace}"maxPoll="500" logType="Debugonly" 
+trace="${sf.trace}" maxPoll="500" logType="Debugonly" 
 runAllTests="${sf.runAllTests}" checkOnly="false"/> 
 </target> 
 <target name="undeployCode"> 
