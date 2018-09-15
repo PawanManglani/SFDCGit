@@ -30,7 +30,7 @@ checkOnly="true"/>
           maxPoll="500" 
           logType="Debugonly" 
           runAllTests="${sf.runAllTests}" 
-          checkOnly="false"/> 
+          /> 
 </target> 
 
  <target name="undeployCode"> 
