@@ -28,9 +28,8 @@ checkOnly="true"/>
 pollWaitMillis="10000" 
 trace="${sf.trace}" 
 maxPoll="500" 
-logType="Debugonly" 
-runAllTests="true"
-checkOnly="false"/> 
+logType="Debugonly" />
+ 
 </target> 
 
  <target name="undeployCode"> 
