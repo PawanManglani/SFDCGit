@@ -10,7 +10,7 @@ basedir=".">
 <property name="sf.deployRoot" value="./src"/> 
 <sf:deploy username="${sf.username}" password="${sf.password}" 
 serverurl="${sf.serverUrl}" deployRoot="${sf.deployRoot}" pollWaitMillis="10000" 
-maxPoll="500"allowMissingFiles="${sf.allowMissingFiles}" 
+maxPoll="500" allowMissingFiles="${sf.allowMissingFiles}" 
 ignoreWarnings="${sf.ignoreWarnings}" testLevel="${sf.testLevel}" 
 checkOnly="true"/> 
 </target> 
