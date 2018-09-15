@@ -1,2 +1,0 @@
-# SFDCGit
-SDFC Learning
